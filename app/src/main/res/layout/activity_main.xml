@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_817de06579ebfc8966ab54a8267f991"
+    android:backgroundTint="#0DFFFFFF"
+    android:backgroundTintMode="add"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context="sg.edu.rp.c346.id21023395.myndpsongs.MainActivity">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/exo_extrabold"
+        android:gravity="center"
+        android:paddingTop="60dp"
+        android:text="@string/header"
+        android:textColor="#614E41"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/exo_bold"
+        android:text="@string/title"
+        android:textColor="#914110" />
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_music_note_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/exo_medium"
+        android:hint="@string/songTitle"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#532200"
+        android:textColorHint="#532200" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/exo_bold"
+        android:paddingTop="10dp"
+        android:text="@string/singer"
+        android:textColor="#914110" />
+
+    <EditText
+        android:id="@+id/singer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_people_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/exo_medium"
+        android:hint="@string/singerName"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#532200"
+        android:textColorHint="#512100" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/exo_bold"
+        android:text="@string/years"
+        android:textColor="#914110" />
+
+    <EditText
+        android:id="@+id/year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_today_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/exo_medium"
+        android:hint="@string/year"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="#532200"
+        android:textColorHint="#532200" />
+
+    <TextView
+        android:id="@+id/starHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/exo_bold"
+        android:text="@string/star"
+        android:textColor="#914110" />
+
+    <RadioGroup
+        android:id="@+id/rgStars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+
+        <RadioButton
+            android:id="@+id/oneStar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="#B87B7B"
+            android:fontFamily="@font/exo_bold"
+            android:text="@string/stars1"
+            android:textColor="#532200"
+            app:useMaterialThemeColors="false" />
+
+        <RadioButton
+            android:id="@+id/twoStars"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/exo_bold"
+            android:text="@string/stars2"
+            android:textColor="#532200" />
+
+        <RadioButton
+            android:id="@+id/threeStar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/exo_bold"
+            android:text="@string/stars3"
+            android:textColor="#532200" />
+
+        <RadioButton
+            android:id="@+id/fourStars"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/exo_bold"
+            android:text="@string/stars4"
+            android:textColor="#532200" />
+
+        <RadioButton
+            android:id="@+id/fiveStars"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/exo_bold"
+            android:text="@string/stars5"
+            android:textColor="#532200" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#391700"
+            android:hapticFeedbackEnabled="false"
+            android:paddingTop="10dp"
+            android:text="@string/btnInsert"
+            android:textColor="#EFCFA0" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#391700"
+            android:text="@string/btnShow"
+            android:textColor="#EFCFA0" />
+    </LinearLayout>
+
+</LinearLayout>

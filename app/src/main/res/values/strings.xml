@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Songs</string>
+    <string name="header">SONG LIST</string>
+
+    <string name="star">Stars</string>
+    <string name="title">Song Title</string>
+    <string name="singer">Singers</string>
+    <string name="years">Year</string>
+
+    <string name="songTitle">Enter Song Title</string>
+    <string name="singerName">Enter Singers\' Names</string>
+    <string name="year">Enter Year Of Release</string>
+
+    <string name="stars1">1</string>
+    <string name="stars2">2</string>
+    <string name="stars3">3</string>
+    <string name="stars4">4</string>
+    <string name="stars5">5</string>
+
+    <string name="btnInsert">INSERT</string>
+    <string name="btnShow">SHOW LIST</string>
+    <string name="btnUpdate">UPDATE</string>
+    <string name="btnDelete">DELETE</string>
+    <string name="btnCancel">CANCEL</string>
+    <string name="header5Stars">Show all songs with 5 stars</string>
+
+</resources>
